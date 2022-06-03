@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ github.repository_owner }}/${{ github.repository }}:latest
+          tags: pygrigori/k8s-php-demo-app:latest
